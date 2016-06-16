@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+table {
+  width: 500px;
+}
+table th {
+  text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+  background: #DDD;
+}
+tbody tr:nth-child(even) {
+  background: #FFF;
+}
