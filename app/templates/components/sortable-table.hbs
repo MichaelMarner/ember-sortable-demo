@@ -5,7 +5,7 @@
   <tbody class="sortable">
 
     {{#each model as |note|}}
-    <tr>
+    <tr data-id="{{note.id}}">
       <td>{{note.index}}</td>
       <td>{{note.content}}</td>
     </tr>
